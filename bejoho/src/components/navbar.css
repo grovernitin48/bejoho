@@ -1,0 +1,14 @@
+.navbar {
+    padding: 0;
+}
+.navbar-brand{
+    color: #EE820D;
+    font-weight: 520;
+}
+.navbar-brand .slogan {
+    font-size: 9.5px;
+    color: black;
+}
+.pad-left{
+    padding-left: 6px;
+}

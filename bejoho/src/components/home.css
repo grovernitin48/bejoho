@@ -1,0 +1,64 @@
+.body-container{
+  /* justify-content: center; */
+  align-items:flex-start;
+  display: flex;
+  height: 65vh; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../../public/bg.svg);
+  overflow-x: hidden;
+}
+
+.headline {
+  margin-top: 2rem;
+  margin-left: 5rem;
+}
+.tagline {
+  color: gray;
+}
+.form-container {
+  margin-top: 11rem;
+  margin-left: 2rem;
+  align-items:center;
+  display: flex;
+  gap: 15px;
+  overflow-x: hidden;
+}
+.react-tel-input {
+  width: 300px !important; 
+}
+.flag-dropdown{
+  height: 35px;
+}
+input[type=text]{
+  width:20rem;
+  height: 2.5rem;
+  border:2px solid #aaa;
+  border-radius:4px;
+  margin:8px 0;
+  outline:none;
+  padding:8px;
+  box-sizing:border-box;
+  transition:.3s;
+}
+
+input[type=text]:focus{
+  border-color:dodgerBlue;
+  box-shadow:0 0 8px 0 dodgerBlue;
+}
+.whatsappChat {
+    font-size: 14px;
+    align-items: center;
+    margin-right: 8px;
+    margin-top: 6px;
+    font-weight: 600;
+    background-color: #0bb68b;
+    border-radius: 10px;
+    border: 0;
+    padding: 3px 16px 0 16px;
+    height: 34px;
+    display: inline-flex;
+    width: 200px;
+    align-self: center;
+}

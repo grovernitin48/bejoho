@@ -1,0 +1,106 @@
+.details-headline{
+    text-align: center;
+    margin-top: 3rem;
+    /* margin-bottom: 3rem; */
+}
+
+.cards-container{
+    margin: 4rem;
+    display: flex;
+    justify-content:space-evenly;
+}
+.button-container {
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.video-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+  }
+  
+  .video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+
+  .doctorChat {
+    font-size: 12px;
+    align-items: center;
+    margin-right: 8px;
+    color: #0bb68b;
+    margin-top: 6px;
+    font-weight: 600;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #0bb68b;
+    height: 34px;
+    display: inline-flex;
+    width: 150px;
+    align-self: center;
+  }
+
+  .language-list {
+    display: flex;
+    align-items: center;
+    padding-top: 4rem;
+    margin-bottom: 4rem;
+    column-gap: 20px;
+    justify-content: center;
+  }
+
+  .language-list span {
+    color: #444;
+    font-family: Muli;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: left;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.language-list a, .language-list span {
+  color: #444;
+  font-family: Muli;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: left;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.language-list a.active {
+  background-color: #fff;
+  border: 1px solid #fb0;
+  border-radius: 12px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.07);
+  padding: 2px 10px;
+  font-weight: bold;
+}
+
+.footer-wrap {
+  display: flex;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.footer-logo img {
+  width: 90px;
+  height: 40px;
+}
+
+.bb-gray {  
+  text-align: center;
+  height: 120px;
+  background-color: rgb(248,249,250);
+}
