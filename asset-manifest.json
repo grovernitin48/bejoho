@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/bejoho/static/css/main.c8620554.css",
-    "main.js": "/bejoho/static/js/main.e7959513.js",
+    "main.js": "/bejoho/static/js/main.52d7c46d.js",
     "static/media/bg.svg": "/bejoho/static/media/bg.178993178197865aff54.svg",
     "index.html": "/bejoho/index.html",
     "main.c8620554.css.map": "/bejoho/static/css/main.c8620554.css.map",
-    "main.e7959513.js.map": "/bejoho/static/js/main.e7959513.js.map"
+    "main.52d7c46d.js.map": "/bejoho/static/js/main.52d7c46d.js.map"
   },
   "entrypoints": [
     "static/css/main.c8620554.css",
-    "static/js/main.e7959513.js"
+    "static/js/main.52d7c46d.js"
   ]
 }
