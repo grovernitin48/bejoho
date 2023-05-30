@@ -22,7 +22,7 @@ function MyNavbar() {
         <Navbar sticky="top" bg="light" expand="lg">
             <Container>
                 <Navbar.Brand href="#">
-                    <img src="/logo.png" alt="logo" height="28" width="50" /><br />
+                    <img src="logo.png" alt="logo" height="28" width="50" /><br />
                     BeJoHo<br />
                     <p className='slogan'>Begin Your Journey of Hope</p>
                 </Navbar.Brand>
@@ -32,11 +32,16 @@ function MyNavbar() {
                     <Nav className="ml-auto">
                         <Form className="d-flex">
                             <Form.Control
-                                type="search"
                                 placeholder="Search"
                                 className="me-2"
                                 aria-label="Search"
-                            />
+                                type="file"
+                                name="image"
+                                accept="image/*"
+                                capture="environment"
+                            >
+                            </Form.Control>
+
                         </Form>
                         <NavDropdown title="English"
                             id="collasible-nav-dropdown"
